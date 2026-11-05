@@ -1,0 +1,427 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   THEME STYLING ENGINES: Light Mode, Midnight Navy, Warm Sand & Dark Obsidian
+   ========================================================================== */
+
+/* 1. CLEAN EXECUTIVE LIGHT THEME */
+html[data-theme="light"],
+html[data-theme="light"] body {
+  background-color: #F8FAFC !important;
+  color: #0F172A !important;
+}
+
+html[data-theme="light"] .bg-\[\#0A0C10\] {
+  background-color: #F8FAFC !important;
+  color: #0F172A !important;
+}
+
+html[data-theme="light"] .bg-\[\#161A23\] {
+  background-color: #FFFFFF !important;
+  border-color: #E2E8F0 !important;
+  color: #0F172A !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.05) !important;
+}
+
+html[data-theme="light"] .bg-\[\#11141B\],
+html[data-theme="light"] .bg-\[\#11141D\],
+html[data-theme="light"] .bg-\[\#141822\],
+html[data-theme="light"] .bg-\[\#141822\]\/60 {
+  background-color: #F1F5F9 !important;
+  border-color: #E2E8F0 !important;
+}
+
+html[data-theme="light"] .bg-\[\#0E121A\] {
+  background-color: #FFFFFF !important;
+  border-color: #CBD5E1 !important;
+  color: #0F172A !important;
+}
+
+html[data-theme="light"] .bg-slate-800,
+html[data-theme="light"] .bg-slate-800\/80 {
+  background-color: #E2E8F0 !important;
+  color: #1E293B !important;
+}
+
+html[data-theme="light"] .bg-slate-800\/40,
+html[data-theme="light"] .hover\:bg-slate-800:hover,
+html[data-theme="light"] .hover\:bg-slate-800\/40:hover {
+  background-color: #E2E8F0 !important;
+}
+
+html[data-theme="light"] .text-white {
+  color: #0F172A !important;
+}
+
+html[data-theme="light"] .text-slate-200 {
+  color: #1E293B !important;
+}
+
+html[data-theme="light"] .text-slate-300 {
+  color: #334155 !important;
+}
+
+html[data-theme="light"] .text-slate-400 {
+  color: #64748B !important;
+}
+
+html[data-theme="light"] .text-slate-500 {
+  color: #94A3B8 !important;
+}
+
+html[data-theme="light"] .border-slate-800,
+html[data-theme="light"] .border-slate-800\/80,
+html[data-theme="light"] .border-slate-800\/90,
+html[data-theme="light"] .border-slate-800\/60,
+html[data-theme="light"] .border-slate-700 {
+  border-color: #E2E8F0 !important;
+}
+
+html[data-theme="light"] input,
+html[data-theme="light"] select,
+html[data-theme="light"] textarea {
+  color: #0F172A !important;
+  background-color: #FFFFFF !important;
+  border-color: #CBD5E1 !important;
+}
+
+html[data-theme="light"] input::placeholder,
+html[data-theme="light"] textarea::placeholder {
+  color: #94A3B8 !important;
+}
+
+html[data-theme="light"] .shadow-2xl,
+html[data-theme="light"] .shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* 2. MIDNIGHT NAVY FINANCIAL THEME */
+html[data-theme="navy"],
+html[data-theme="navy"] body {
+  background-color: #060B18 !important;
+  color: #E2E8F0 !important;
+}
+
+html[data-theme="navy"] .bg-\[\#0A0C10\] {
+  background-color: #060B18 !important;
+}
+
+html[data-theme="navy"] .bg-\[\#161A23\] {
+  background-color: #0F1B38 !important;
+  border-color: #1E2D5A !important;
+}
+
+html[data-theme="navy"] .bg-\[\#11141B\],
+html[data-theme="navy"] .bg-\[\#11141D\],
+html[data-theme="navy"] .bg-\[\#141822\],
+html[data-theme="navy"] .bg-\[\#141822\]\/60 {
+  background-color: #0A1329 !important;
+  border-color: #1E2D5A !important;
+}
+
+html[data-theme="navy"] .bg-\[\#0E121A\] {
+  background-color: #070E1F !important;
+  border-color: #1A284F !important;
+}
+
+html[data-theme="navy"] .border-slate-800,
+html[data-theme="navy"] .border-slate-800\/80,
+html[data-theme="navy"] .border-slate-800\/90,
+html[data-theme="navy"] .border-slate-800\/60,
+html[data-theme="navy"] .border-slate-700 {
+  border-color: #1E2D5A !important;
+}
+
+/* 3. WARM EXECUTIVE SAND / LINEN THEME */
+html[data-theme="sand"],
+html[data-theme="sand"] body {
+  background-color: #F5F2EB !important;
+  color: #1C1917 !important;
+}
+
+html[data-theme="sand"] .bg-\[\#0A0C10\] {
+  background-color: #F5F2EB !important;
+  color: #1C1917 !important;
+}
+
+html[data-theme="sand"] .bg-\[\#161A23\] {
+  background-color: #FAF8F5 !important;
+  border-color: #DDD8CD !important;
+  color: #1C1917 !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05) !important;
+}
+
+html[data-theme="sand"] .bg-\[\#11141B\],
+html[data-theme="sand"] .bg-\[\#11141D\],
+html[data-theme="sand"] .bg-\[\#141822\],
+html[data-theme="sand"] .bg-\[\#141822\]\/60 {
+  background-color: #EFECE3 !important;
+  border-color: #DDD8CD !important;
+}
+
+html[data-theme="sand"] .bg-\[\#0E121A\] {
+  background-color: #FFFFFF !important;
+  border-color: #DDD8CD !important;
+  color: #1C1917 !important;
+}
+
+html[data-theme="sand"] .text-white {
+  color: #1C1917 !important;
+}
+
+html[data-theme="sand"] .text-slate-200 {
+  color: #292524 !important;
+}
+
+html[data-theme="sand"] .text-slate-300 {
+  color: #44403C !important;
+}
+
+html[data-theme="sand"] .text-slate-400 {
+  color: #78716C !important;
+}
+
+html[data-theme="sand"] .border-slate-800,
+html[data-theme="sand"] .border-slate-800\/80,
+html[data-theme="sand"] .border-slate-800\/90,
+html[data-theme="sand"] .border-slate-800\/60,
+html[data-theme="sand"] .border-slate-700 {
+  border-color: #DDD8CD !important;
+}
+
+html[data-theme="sand"] input,
+html[data-theme="sand"] select,
+html[data-theme="sand"] textarea {
+  color: #1C1917 !important;
+  background-color: #FFFFFF !important;
+  border-color: #D6D0C4 !important;
+}
+
+/* 4. EMERALD WEALTH THEME */
+html[data-theme="emerald"],
+html[data-theme="emerald"] body {
+  background-color: #041009 !important;
+  color: #E2F8EE !important;
+}
+
+html[data-theme="emerald"] .bg-\[\#0A0C10\] {
+  background-color: #041009 !important;
+}
+
+html[data-theme="emerald"] .bg-\[\#161A23\] {
+  background-color: #0B2216 !important;
+  border-color: #16462E !important;
+}
+
+html[data-theme="emerald"] .bg-\[\#11141B\],
+html[data-theme="emerald"] .bg-\[\#11141D\],
+html[data-theme="emerald"] .bg-\[\#141822\],
+html[data-theme="emerald"] .bg-\[\#141822\]\/60 {
+  background-color: #071910 !important;
+  border-color: #16462E !important;
+}
+
+html[data-theme="emerald"] .bg-\[\#0E121A\] {
+  background-color: #06160E !important;
+  border-color: #143D27 !important;
+}
+
+html[data-theme="emerald"] .border-slate-800,
+html[data-theme="emerald"] .border-slate-800\/80,
+html[data-theme="emerald"] .border-slate-800\/90,
+html[data-theme="emerald"] .border-slate-800\/60,
+html[data-theme="emerald"] .border-slate-700 {
+  border-color: #16462E !important;
+}
+
+/* 5. CYBER COBALT THEME */
+html[data-theme="cobalt"],
+html[data-theme="cobalt"] body {
+  background-color: #050811 !important;
+  color: #E0E7FF !important;
+}
+
+html[data-theme="cobalt"] .bg-\[\#0A0C10\] {
+  background-color: #050811 !important;
+}
+
+html[data-theme="cobalt"] .bg-\[\#161A23\] {
+  background-color: #0D1629 !important;
+  border-color: #1B2F57 !important;
+}
+
+html[data-theme="cobalt"] .bg-\[\#11141B\],
+html[data-theme="cobalt"] .bg-\[\#11141D\],
+html[data-theme="cobalt"] .bg-\[\#141822\],
+html[data-theme="cobalt"] .bg-\[\#141822\]\/60 {
+  background-color: #091021 !important;
+  border-color: #1B2F57 !important;
+}
+
+html[data-theme="cobalt"] .bg-\[\#0E121A\] {
+  background-color: #070D1B !important;
+  border-color: #162747 !important;
+}
+
+html[data-theme="cobalt"] .border-slate-800,
+html[data-theme="cobalt"] .border-slate-800\/80,
+html[data-theme="cobalt"] .border-slate-800\/90,
+html[data-theme="cobalt"] .border-slate-800\/60,
+html[data-theme="cobalt"] .border-slate-700 {
+  border-color: #1B2F57 !important;
+}
+
+/* 6. COMPACT DENSITY MODE */
+html[data-density="compact"] main {
+  padding-top: 1rem !important;
+  padding-bottom: 1.5rem !important;
+}
+html[data-density="compact"] .py-6 {
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+}
+html[data-density="compact"] .p-5 {
+  padding: 0.875rem !important;
+}
+html[data-density="compact"] .gap-5 {
+  gap: 0.75rem !important;
+}
+html[data-density="compact"] .gap-4 {
+  gap: 0.625rem !important;
+}
+
+/* 4. FLUID WIDTH LAYOUT MODE */
+html[data-width="fluid"] main {
+  max-width: 98% !important;
+}
+html[data-width="fluid"] header > div {
+  max-width: 98% !important;
+}
+
+/* Comprehensive print media rules for high-contrast, clean PDF/print exports */
+@media print {
+  @page {
+    size: letter portrait;
+    margin: 12mm 15mm;
+  }
+
+  html, body {
+    background: #ffffff !important;
+    color: #111827 !important;
+    height: auto !important;
+    min-height: auto !important;
+    overflow: visible !important;
+    font-size: 11px !important;
+    line-height: 1.5 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Hide background interactive shell elements when a modal or printable report is active */
+  body > #root > :not(.fixed):not(.print-container) {
+    display: none !important;
+  }
+
+  /* Flatten modal overlays for direct printing */
+  .fixed.inset-0 {
+    position: static !important;
+    display: block !important;
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: visible !important;
+    backdrop-filter: none !important;
+  }
+
+  /* Hide all buttons, toolbars, selectors, close icons marked for screen only */
+  .print\:hidden,
+  button,
+  select,
+  input {
+    display: none !important;
+  }
+
+  /* Reset dark theme container cards to clean light backgrounds with crisp borders */
+  #printable-statement,
+  #printable-receipt,
+  .print\:bg-white,
+  .print\:border-black {
+    background-color: #ffffff !important;
+    color: #111827 !important;
+    border-color: #d1d5db !important;
+    box-shadow: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  #printable-statement *,
+  #printable-receipt * {
+    text-shadow: none !important;
+  }
+
+  /* Ensure text is clearly readable in high contrast */
+  .text-white, .text-slate-200, .text-slate-300, .text-slate-400 {
+    color: #111827 !important;
+  }
+
+  .text-slate-500, .text-slate-600 {
+    color: #4b5563 !important;
+  }
+
+  .text-emerald-400, .text-emerald-500 {
+    color: #065f46 !important;
+    font-weight: 700 !important;
+  }
+
+  .text-rose-400, .text-rose-500 {
+    color: #991b1b !important;
+    font-weight: 700 !important;
+  }
+
+  .text-blue-400, .text-blue-500 {
+    color: #1e40af !important;
+    font-weight: 700 !important;
+  }
+
+  .text-amber-400 {
+    color: #92400e !important;
+    font-weight: 700 !important;
+  }
+
+  /* Table styling */
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    page-break-inside: avoid !important;
+    margin-bottom: 12px !important;
+  }
+
+  th {
+    background-color: #f3f4f6 !important;
+    color: #111827 !important;
+    border-bottom: 1.5px solid #9ca3af !important;
+    padding: 6px 8px !important;
+  }
+
+  td {
+    border-bottom: 1px solid #e5e7eb !important;
+    padding: 5px 8px !important;
+    color: #1f2937 !important;
+  }
+
+  .border, .border-b, .border-t {
+    border-color: #e5e7eb !important;
+  }
+
+  .bg-\[\#10141C\], .bg-\[\#0E121A\], .bg-\[\#11141B\], .bg-\[\#141822\], .bg-\[\#161A23\] {
+    background-color: #f9fafb !important;
+    border: 1px solid #e5e7eb !important;
+  }
+
+  .bg-emerald-500\/10 {
+    background-color: #ecfdf5 !important;
+    border: 1px solid #a7f3d0 !important;
+  }
+}

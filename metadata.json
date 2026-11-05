@@ -1,0 +1,7 @@
+{
+  "name": "Bros Rental Flow",
+  "description": "Calculate, track, and analyze rental property income, operating expenses, cash flow, Cap Rate, and ROI with Bros Rental Flow.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
